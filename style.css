@@ -1,0 +1,45 @@
+html{
+  margin:0px;
+  padding:0px;
+}
+Body{
+  background:url(Background.jpg);
+}
+h1{
+  color: white;
+  justify-self:center;
+  font-style:italic;
+}
+.Pesan{
+  color: White;
+  justify-self: center;
+}
+.p2{
+  color:white;
+  justify-self: center;
+  font-style: italic;;
+}
+
+  .Pembukaan{
+    font-stretch: italic;
+    font-size: 150%;
+  }
+  .Next1{
+    justify-self: center;
+    align-items: right;
+    text-decoration: none;
+    Border:3px solid black;
+    border-radius: 10px;
+    background-color: White;
+    color:black;
+    animation: mengetik 3s steps(21,end);
+    
+  }
+  @keyframes mengetik {
+    from{
+      width:0;
+    }
+    to{
+      width:100%;
+    }
+  }
